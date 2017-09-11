@@ -1,0 +1,34 @@
+# 
+# JetBrains Project files
+.idea
+
+# npm
+node_modules/
+npm-debug.log
+
+/client/.sass-cache
+/client/connect.lock
+/client/coverage
+/client/libpeerconnection.log
+
+/client/typings
+testem.log
+yarn-error.log
+
+# e2e
+/client/e2e/*.js
+/client/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+/*
+!/.gitignore
+!/*.md
+!/client/
+!/server/
+!/doc/
+
+
